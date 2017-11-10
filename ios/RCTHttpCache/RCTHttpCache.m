@@ -8,7 +8,7 @@
 
 #import "RCTHttpCache.h"
 //#import "RCTImageLoader.h"
-#import "RCTImageCache.h"
+// #import "RCTImageCache.h"
 //#import "RCTBridge.h"
 
 @implementation RCTHttpCache
