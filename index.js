@@ -13,7 +13,7 @@ export const clearImageCache = native.clearImageCache;
 export const getImageCacheSize = native.getImageCacheSize;
 
 export async function getCacheSize(){
-  const arr = await Promise.all([getHttpCacheSize(), getImageCacheSize()]);
+  const arr = await Promise.all([getHttpCacheSize()]);
 
   console.log(arr.join(','));
   // Get sum of all cache type.
