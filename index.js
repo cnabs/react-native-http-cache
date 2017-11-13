@@ -21,5 +21,5 @@ export async function getCacheSize(){
 }
 
 export async function clearCache(){
-  await Promise.all([clearHttpCache(), clearImageCache()]);
+  await Promise.all([clearHttpCache()]);
 }
